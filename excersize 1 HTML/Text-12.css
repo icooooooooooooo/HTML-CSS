@@ -1,0 +1,38 @@
+.border-Red{
+    border: #BC0303 3px solid;
+    border-radius: 5px;
+    background-color: lightgrey;
+    text-align: center;
+    font-size: large;
+    width: 150px;
+}
+
+.border-Blue{
+    border: #0606AD 3px solid;
+    border-radius: 5px;
+    background-color: lightgrey;
+    text-align: center;
+    font-size: large;
+    width: 150px;
+}
+
+.border-Green{
+    border: #057705 3px solid;
+    border-radius: 5px;
+    background-color: lightgrey;
+    text-align: center;
+    font-size: large;
+    width: 150px;
+}
+
+.red{
+    color: #D30E0E;
+}
+
+.blue{
+    color: #0404E8;
+}
+
+.green{
+    color: #1D6D02;
+}

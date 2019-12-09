@@ -1,0 +1,8 @@
+.lang{
+    border: grey solid 3px;
+    background: lightgrey;
+    border-radius: 4px;
+    padding: 5px;
+    line-height: 1.5em;
+    font-size: 36pt;
+}

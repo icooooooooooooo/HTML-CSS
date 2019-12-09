@@ -1,0 +1,31 @@
+.box{
+    background: #eee;
+    padding: 25px;
+    border-radius: 4px;
+    width: 300px
+}
+
+.span{
+    display: inline-block;
+    width: 80px;
+    background: #eee;
+    margin: 10px 3px 3px 8px;
+}
+
+.cell{
+    width: 150px;
+    height: 20px;
+    margin: 0px 5px;
+    box-sizing: border-box;
+}
+
+.dropdown{
+    margin: 0px 5px;
+}
+
+.submit{
+    display: block;
+    margin: 10px 0 12px 98px;
+    width: 80px;
+    height: 30px;
+}

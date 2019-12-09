@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Register</title>
+        <link rel="stylesheet" href=".\style\style.css">
+        <script src=".\script\jquery-3.3.1.js"></script>
+        <script src=".\script\bootstrap.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top text-uppercase">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">Hristo's Blog</a>
+                </div>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="Login.html">Login</a></li>
+                    </ul>
+                </div>
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+        <main>
+            <div class="container body-content span=8 offset=2">
+            <form class="form-horizontal">
+                <fieldset>
+                    <legend>
+                        Register Page
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">Name</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="firstName" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Surname</label>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" id="surName" placeholder="Surname">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Email</label>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" id="mailAddress" placeholder="email address">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Password</label>
+                            <div class="col-md-4">
+                                <input type="password" class="form-control" id="password" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Re-Type Password</label>
+                            <div class="col-md-4">
+                                <input type="password" class="form-control" id="password" placeholder="Re-type Password">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <button type="reset" class="btn btn-default">Reset</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </legend>
+                </legend>
+            </form>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
