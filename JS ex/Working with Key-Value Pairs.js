@@ -1,15 +1,20 @@
 function KVP(arr) {
     let key = arr.pop();
-    let dict = {};
+    let pair = {};
 
     for (let element of arr) {
-        let split = element.split(' ');
-        let key = element[0];
-        let value = element[1];
+        let split = element.split(" ");
+        let key = split[0];
+        let value = split[1];
         
-        dict[key]=value;
+        pair[key]=value;
     }
-    console.log(dict[key].value);
+
+    if (pair.hasOwnProperty(key)) {
+        console.log(pair[key])
+    } else {
+        console.log("None")        
+    }
 }
 KVP([
     "3 test" ,
